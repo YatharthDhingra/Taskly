@@ -1,6 +1,3 @@
-import 'dart:ui';
-
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 //because the state of this widget will change in our app, so stateful
@@ -75,7 +72,7 @@ class _HomePageState extends State<HomePage> {
       //what happens when we click on button
       
     },
-    child: Icon(Icons.add), //'+' icon added
+    child: const Icon(Icons.add), //'+' icon added
     );
   }
 }
