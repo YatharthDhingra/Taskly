@@ -22,6 +22,7 @@ class Task {
 
   Map toMap() {
     //converts our content to a map , that we will store in hive database
+    //as hive is key-value pair database
     return {
       "content": content,
       "timestamp": timestamp,
